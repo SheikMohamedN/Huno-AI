@@ -14,10 +14,10 @@ body{
 }
 
 .container{
-  width: 350px;
+  width: 600px;
   height: 600px;
-  background: white;
-  border: 2px solid black;
+  background: rgb(236, 235, 235);
+  border: 2px solid rgb(14, 13, 13);
   position: relative;
   padding: 20px;
 }
@@ -25,7 +25,7 @@ body{
 .logo{
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 490px;
   font-size: 28px;
   font-weight: bold;
 }
