@@ -10,22 +10,22 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f4f4f4;
+  background: #cccaca;
 }
 
 .container{
-  width: 600px;
+  width: 1200px;
   height: 600px;
-  background: rgb(236, 235, 235);
-  border: 2px solid rgb(14, 13, 13);
+  background: rgb(223, 221, 221);
+  border: 2px solid rgb(221, 219, 219);
   position: relative;
   padding: 20px;
 }
 
 .logo{
-  position: absolute;
-  top: 20px;
-  right: 490px;
+  position: fixied;
+  top: 25px;
+  right: 1080px;
   font-size: 28px;
   font-weight: bold;
 }
@@ -45,7 +45,7 @@ body{
   left: 20px;
   right: 20px;
   display: flex;
-  border: 2px solid black;
+  border: 2px solid rgb(8, 8, 8);
   border-radius: 40px;
   overflow: hidden;
   height: 55px;
@@ -62,12 +62,12 @@ body{
 .bottom-box button{
   width: 80px;
   border: none;
-  background: black;
-  color: white;
+  background: rgb(39, 39, 39);
+  color: rgb(201, 199, 199);
   font-size: 16px;
   cursor: pointer;
 }
 
 .bottom-box button:hover{
-  background: #333;
+  background: #acabab;
 }
